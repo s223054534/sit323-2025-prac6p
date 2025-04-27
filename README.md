@@ -24,3 +24,9 @@ docker push yourdockerhubusername/k8s-node-app:v1
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
 minikube service node-app-service
+
+# Instructions for accessing the deployed application
+running the following commands:
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
+Accessing it on http://localhost:8080/
